@@ -23,3 +23,7 @@ body {
 .gridCell {
   border: solid black 1px;
 }
+
+#words {
+  margin-right: 40px;
+}
