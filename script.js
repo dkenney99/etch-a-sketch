@@ -5,6 +5,7 @@ let columns = parseInt(
 );
 
 function makeColumns(columns) {
+  container.style.setProperty("--grid-cols", columns);
   for (let i = 0; i < columns * columns; i++) {
     let cell = document.createElement("div");
     cell.classList.add("gridCell");
